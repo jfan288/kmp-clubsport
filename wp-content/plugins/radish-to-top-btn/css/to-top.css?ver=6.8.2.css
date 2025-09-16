@@ -1,0 +1,49 @@
+.to-top {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: url(../images/to-top.svg) no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+    z-index:  999;
+    transform: rotate(270deg);
+}
+
+.to-top.top-is-visible {
+    visibility: visible;
+    opacity: 1;
+}
+
+.to-top.top-fade-out {
+    opacity: .5;
+}
+
+.no-touch .to-top:hover {
+    opacity: 1;
+}
+
+@media only screen and (min-width:  768px) {
+    .to-top {
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media only screen and (min-width:  1024px) {
+    .to-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
+}

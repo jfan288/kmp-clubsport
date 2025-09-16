@@ -1,0 +1,59 @@
+button.show-currency-info {
+    background: transparent !important;
+    border: none;
+    font-size: 16px;
+}
+
+
+button.show-currency-info:hover,
+button.show-currency-info:focus {
+    color: #ff6e00;
+    border: none;
+    outline: none;
+}
+
+nav .currency-switcher {
+    list-style: none;
+    padding: 10px 0 0 0;
+}
+
+nav .currency-switcher li.switch {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+nav .currency-switcher li.switch button{
+    font-weight: normal;
+    padding: 8px 12px;
+    background-color: #fafafa;
+    border: none;
+    color: #000000;
+}
+
+nav .currency-switcher li.switch button:focus,
+nav .currency-switcher li.switch button:hover {
+    border: none;
+    outline: none;
+}
+
+nav .currency-switcher li.switch button.active {
+    background-color: #efefef;
+    font-weight: bold;
+}
+
+.kmp-calculation-info .kmp-calculation {
+    padding: 20px 20px 10px 20px;
+    list-style: none;
+    background-color: #efefef;
+    font-size: 13px;
+}
+
+.woocommerce.single-product .kmp-single-product-meta .kmp-calculation-info .kmp-calculation label{
+    display: inline-block;
+    width: 160px;
+}
+
+.kmp-calculation-info p {
+    padding: 5px 0 0 20px;
+    font-size: 13px;
+}
